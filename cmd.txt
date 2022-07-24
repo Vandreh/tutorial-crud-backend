@@ -1,0 +1,28 @@
+Installing node-modules:
+    npm install
+
+Creating the docker image:
+    docker-compose up -d
+
+Creating and migrating the prisma database(PostgreSQL):
+    npx prisma migrate dev Todo
+
+Visualizing the PostgreSQL database:
+    npx prisma studio
+
+Running the application Node:
+    npm run dev
+
+// ALter migration:
+    // npx prisma migrate dev AddDefaultValueToStatusTodo
+
+
+
+
+
+
+
+
+Puting in production:
+https://www.youtube.com/watch?v=DVTceFeaAdc&t=1810s
+
